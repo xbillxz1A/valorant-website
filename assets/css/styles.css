@@ -1,0 +1,38 @@
+/* Estilos personalizados para o site */
+body {
+    background: linear-gradient(90deg, #cfd9df 0%, #e2ebf0 100%);
+    -webkit-background-clip: text;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+footer {
+    position: down;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222
+    color: #fff
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 5px;
+    }
+}
+.nav-link {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
